@@ -17,15 +17,6 @@ body {
   font-family: 'Monofett', cursive; 
 }
 
-#demo {
-  text-align: center;
-  font-size: 18px;
-  margin-top: 15px;
-  color: #141c3a;
-  letter-spacing: 1px;
-  font-style: italic;
-}
-
 .piano {
   width: 880px;
   height: 265px;
@@ -36,7 +27,7 @@ body {
   text-align: center;
 }
 
-.key {
+.white {
   width: 80px;
   height: 250px;
   display: inline-block;
@@ -46,7 +37,12 @@ body {
   color: #141c3a;
 }
 
-.black-key {
+.white.active {
+  background-color: #6df0c2;
+  transition: 1ms;
+}
+
+.black {
   width: 75px;
   height: 150px;
   display: inline-block;
@@ -55,6 +51,11 @@ body {
   position: absolute;
   margin-left: -12px;
   padding: 0px;
+}
+
+.black.active {
+  background-color: #6df0c2;
+  transition: 200ms;
 }
 
 .keynote {
@@ -76,54 +77,3 @@ body {
   margin-top: 75px;
 }
 
-#lyrics {
-  width: 400px;
-  height: 240px;
-  display: block;
-  margin: 0 auto;
-  padding-left: 20px;
-  margin-top: 50px;
-  background-color: #fd4d3f;
-}
-
-#column-one, #column-two, #column-three, #column-four, #column-five, #column-six, #column-optional {
-  width: 90px;
-  display: inline-block;
-  text-align: center;
-  margin-top: 30px;
-}
-
-#column-optional {
-  display: none;
-}
-
-#word-one, #word-two, #word-three, #word-four, #word-five, #word-six, #word-optional {
-  background-color: white;
-  width: 90px;
-  height: 25px;
-  padding-top: 10px;
-  letter-spacing: 5px;
-  color: #141c3a;
-}
-
-#letter-note-one, #letter-note-two, #letter-note-three, #letter-note-four, #letter-note-five, #letter-note-six, #letter-note-optional {
-  color: white;
-  width: 25px;
-  height: 25px;
-  margin-top: 15px;
-  margin-left: 35px;
-}
-
-#first-next-line, #second-next-line, #third-next-line, #fourth-next-line {
-  width: 80px;
-  height: 40px;
-  font-size: 16px;
-  position: absolute;
-  margin-top: 30px;
-  margin-left: 10px;
-  border: none;
-  background-color: #ffc63f;
-  color: #141c3a;
-  letter-spacing: 1px;
-  cursor: pointer;
-}

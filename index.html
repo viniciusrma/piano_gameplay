@@ -7,81 +7,98 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">
   </head>
-  
-   
+
   <body>
     <title>Piano gameplay!</title>
-    <p class='title'> Piano Gameplay </p>
-    <!-- <p id='demo'>Follow the song below to play the piano.</p> -->
-    
+    <p class='title'>
+      Piano Gameplay
+    </p>
+
     <!-- Piano Section -->
-    <section class="piano">
-      
+    <div class="piano">
+
       <!-- Keyboard Section -->
-      <section id='a-key' class="key" data-note="A">
+      <section id='a-key' class="key white" data-note="do">
         <section class='keynote'>A</section>
       </section>
-      <section id='w-sharp-key' class="black-key" data-note="W">
+      <section id='w-sharp-key' class="key black" data-note="do#">
         <section class='black-keynote'>W</section>
       </section>
-      <section id='s-key' class="key" data-note="S">
+      <section id='s-key' class="key white" data-note="re">
         <section class='keynote'>S</section>
       </section>
-      <section id='e-sharp-key' class="black-key" data-note="E">
+      <section id='e-sharp-key' class="key black" data-note="re#">
         <section class='black-keynote'>E</section>
       </section>
-      <section id='d-key' class="key" data-note="D">
+      <section id='d-key' class="key white" data-note="mi">
         <section class='keynote'>D</section>
       </section>
-
-
-
-      <section id='f-key' class="key" data-note="F">
+      <section id='f-key' class="key white" data-note="fa">
         <section class='keynote'>F</section>
       </section>
-      <section id='t-sharp-key' class="black-key" data-note="T">
+      <section id='t-sharp-key' class="key black" data-note="fa#">
         <section class='black-keynote'>T</section>
       </section>
-      <section id='g-key' class="key" data-note="G">
+      <section id='g-key' class="key white" data-note="sol">
         <section class='keynote'>G</section>
       </section>
-      <section id='y-sharp-key' class="black-key" data-note="Y">
+      <section id='y-sharp-key' class="key black" data-note="sol#">
         <section class='black-keynote'>Y</section>
       </section>
-      <section id='h-key' class="key" data-note="H">
+      <section id='h-key' class="key white" data-note="la">
         <section class='keynote'>H</section>
       </section>
-      <section id='u-sharp-key' class="black-key" data-note="U">
+      <section id='u-sharp-key' class="key black" data-note="la#">
         <section class='black-keynote'>U</section>
-      </section>      
-      <section id='f-key' class="key" data-note="F">
+      </section>
+      <section id='j-key' class="key white" data-note="si">
         <section class='keynote'>J</section>
       </section>
-
-
-      
-      <section id='k-key' class="key" data-note="K">
+      <section id='k-key' class="key white" data-note="do1">
         <section class='keynote'>K</section>
       </section>
-      <section id='o-sharp-key' class="black-key" data-note="O">
+      <section id='o-sharp-key' class="key black" data-note="do1#">
         <section class='black-keynote'>O</section>
       </section>
-      <section id='l-key' class="key" data-note="L">
+      <section id='l-key' class="key white" data-note="re1">
         <section class='keynote'>L</section>
       </section>
-      <section id='p--sharp-key' class="black-key" data-note="P">
+      <section id='p-sharp-key' class="key black" data-note="re1#">
         <section class='black-keynote'>P</section>
       </section>
-       <section id='ç-key' class="key" data-note="Ç">
-        <section class='keynote'>Ç</section>
+      <section id='ç-key' class="key white" data-note="mi1">
+        <section class='keynote'>ç</section>
       </section>
-  
 
+      <div class="warning">
+        <h3>
+          ⚠ Caps Lock stops keyboard operation ⚠
+        </h3>
+      </div>
 
-    </section>
+      <!--Audio files section-->
 
+      <audio id="do" src="notes/do.wav"></audio>
+      <audio id="do#" src="notes/doM.wav"></audio>
+      <audio id="re" src="notes/re.wav"></audio>
+      <audio id="re#" src="notes/reM.wav"></audio>
+      <audio id="mi" src="notes/mi.wav"></audio>
+      <audio id="fa" src="notes/fa.wav"></audio>
+      <audio id="fa#" src="notes/faM.wav"></audio>
+      <audio id="sol" src="notes/sol.wav"></audio>
+      <audio id="sol#" src="notes/solM.wav"></audio>
+      <audio id="la" src="notes/la.wav"></audio>
+      <audio id="la#" src="notes/laM.wav"></audio>
+      <audio id="si" src="notes/si.wav"></audio>
+      <audio id="do1" src="notes/do1.wav"></audio>
+      <audio id="do1#" src="notes/do1M.wav"></audio>
+      <audio id="re1" src="notes/re1.wav"></audio>
+      <audio id="re1#" src="notes/re1M.wav"></audio>
+      <audio id="mi1" src="notes/mi1.wav"></audio>
+
+    </div>
     
-    <script src="main.js"></script>
-
+    <script src="script.js" defer="defer"></script>
   </body>
+  
 </html>
