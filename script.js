@@ -12,7 +12,7 @@ keys.forEach(key => {
   key.addEventListener('click', () => playNote(key))
 })
 
-//The event listener 
+//The event listener for when the key is pressed
 document.addEventListener('keydown', e => {
   if (e.repeat) return
   const key = e.key

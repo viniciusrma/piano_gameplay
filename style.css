@@ -39,7 +39,6 @@ body {
 
 .white.active {
   background-color: #6df0c2;
-  transition: 1ms;
 }
 
 .black {
@@ -55,7 +54,7 @@ body {
 
 .black.active {
   background-color: #6df0c2;
-  transition: 200ms;
+  border: 4px solid #fd4d3f;
 }
 
 .keynote {
