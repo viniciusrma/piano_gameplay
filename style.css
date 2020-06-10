@@ -84,4 +84,22 @@ body {
   justify-content: space-between;
   align-items: center;
   color: #141c3a;
+  font-size: 16px;
+}
+
+.warnings .caps-lock {
+  background-color: #141c3a;
+  color: #ffc63f;
+}
+
+.warnings .linkedin {
+  background-color: #141c3a;
+  color: #ffc63f;
+}
+
+a {
+  text-decoration: none;
+  color: #fd4d3f;
+  font-size: 22px;
+
 }
