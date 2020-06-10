@@ -98,8 +98,8 @@ body {
 }
 
 a {
-  text-decoration: none;
-  color: #fd4d3f;
+  text-decoration:underline;
+  text-decoration-color: blue ;
+  color: white;
   font-size: 22px;
-
 }
