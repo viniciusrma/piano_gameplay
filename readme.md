@@ -15,8 +15,8 @@
 - [How to contribute](#hot-to-contribute)
   
 
-<a  id="play-me" src="https://viniciusrma.github.io/piano_gameplay/"></a>
-## 🎮 Play me!
+## 🎮 
+[Play me](https://viniciusrma.github.io/piano_gameplay/)
 
 <a  id="about"></a>
 ## 📑 About the project
