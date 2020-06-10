@@ -1,5 +1,5 @@
 <h1  align="center">
-    <img src="https://i.ibb.co/jwk6SYp/logo.png" alt="logo" border="0">
+  <img src="https://i.ibb.co/cJKvXHf/logo.png" alt="logo" border="0">
 </h1>
   
 ## 📍 Index
