@@ -4,6 +4,8 @@
   
 ## 📍 Index
 
+- [Play me!](#play)
+
 - [About the project](#About)
 
 - [Applied technologies](#applied-technologies)
@@ -12,8 +14,11 @@
 
 - [How to contribute](#hot-to-contribute)
   
-<a  id="about"></a>
 
+<a  id="play-me" src="https://viniciusrma.github.io/piano_gameplay/"></a>
+## 🎮 Play me!
+
+<a  id="about"></a>
 ## 📑 About the project
 
 Welcome! 
@@ -21,7 +26,6 @@ This project was made in study about DOM events, specifically with keyboard even
 To achieve this objective, i've made this game to simulate an partial piano, and i hope you play and enjoy it!
 
 <a  id="applied-technologies"></a>
-
 ## 💻 Applied technologies
 
 The project was developed using the following technologies:
@@ -33,7 +37,6 @@ The project was developed using the following technologies:
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
 
 <a  id="how-to-use"></a>
-
 ## ⁉ How to use
 
 - ### **Prerequisites**
@@ -81,7 +84,6 @@ $ npm start
 ```
 
 <a  id="hot-to-contribute"></a>
-
 ## ♻️ How to contribute
 
 - Fork this repository;
@@ -99,7 +101,5 @@ This project is under license from MIT. See the archive: [LICENSE](license.md) f
 ---
 
 <h4  align="center">
-
 Made by <a  href="https://www.linkedin.com/in/viniciusrma/"  target="_blank">Vinícius Morais</a>
-
 </h4>
