@@ -51,7 +51,7 @@ The project was developed using the following technologies:
 
 ```sh
 
-$ git clone https://github.com/viniciusrma/nlw.git
+$ git clone https://github.com/viniciusrma/piano_gameplay
 
 ```
 
