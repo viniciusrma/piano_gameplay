@@ -4,7 +4,7 @@
   
 ## 📍 Index
 
-- [Play me!](#play)
+- [Play me!](https://viniciusrma.github.io/piano_gameplay/)
 
 - [About the project](#About)
 
