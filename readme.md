@@ -63,8 +63,6 @@ $ git clone https://github.com/viniciusrma/piano_gameplay
 
 $ npm install
 
-# Start the API
-
 $ cd server
 
 $ npm run dev
@@ -72,12 +70,6 @@ $ npm run dev
 # Launch web application
 
 $ cd web
-
-$ npm start
-
-# Launch mobile application
-
-$ cd mobile
 
 $ npm start
 
